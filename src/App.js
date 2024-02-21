@@ -1,10 +1,16 @@
-import './App.css';
+import { Outlet } from 'react-router-dom';
+import FooterSection from './components/footer/footer.section';
+import NavbarSection from './components/navbar/navbar.section';
+
 
 function App() {
   return (
-    <div className="App">
-    Starting project
-    </div>
+    <>
+      <NavbarSection />
+      <Outlet/>
+      <FooterSection/>
+    </>
+
   );
 }
 
