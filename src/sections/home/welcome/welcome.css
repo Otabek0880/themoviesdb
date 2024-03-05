@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcome{
+    width: 100%;
+}
+
+.welcome_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome_bg_img{
+    width: 1920px;
+    max-width: 1300px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    background-image: url("https://image.tmdb.org/t/p/w1920_and_h600_multi_faces/SqAZjEqqBAYvyu3KSrWq1d0QLB.jpg");
+    background-size: cover;
+   
+}
+
+.welcome_wrapper{
+    width: 100%;
+    padding: 30px 40px;
+}
+
+.welcome_title h1{
+    font-size: 3em;
+    font-weight: 700;
+  color: #fff;
+}
+
+.welcome_title h3{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.welcome_search{
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+
+.welcome_search input{
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, .5);
+    border: 0;
+    border-radius: 30px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.welcome_search button{
+    height: 46px;
+    padding: 10px 26px;
+    border: 0;
+    background: linear-gradient(to right, rgba(30,213,169) 0%, rgba(1,180,228) 100%);
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    right: -1px;
+    color: #fff;
+}

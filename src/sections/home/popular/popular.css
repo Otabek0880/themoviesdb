@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.popular{
+    width: 1300px;
+    display: flex;
+    height: 420px;
+    margin-bottom: 60px;
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.singlepeople_page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+     margin-top: 80px;
+}
+
+
+.singlepage_container{
+  
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.singlepage_container .first_section .profile_photo{
+    width: 300px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.second_section h1{
+    margin-bottom: 30px;
+}
+
+.second_section h1 a{
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+.first_section .social_medias{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+   
+}
+
+.second_section {
+    max-width: 920px;
+}
+
+.credits{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    transition: height .5s linear;
+}
+
+.credits a{
+    text-decoration: none;
+}
+
+.credits img{
+    border-radius: 8px;
+}
+
+.credits p{
+    text-align: center;
+    font-size: .9em;
+    color: #000;
+}

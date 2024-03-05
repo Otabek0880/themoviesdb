@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.trending{
+    width: 1300px;
+    display: flex;
+    height: 420px;
+    background-image: url("https://www.themoviedb.org/assets/2/v4/misc/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg");
+   
+    background-position: 50% 200px;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+
+}
+
+.trending_wrapper{
+    max-width: 1300px;
+    margin-top: 30px;
+    /* display: flex;
+    align-items: flex-start;
+    align-content: flex-start; */
+}
+
+.trending_header{
+    max-width: 1300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.trending_header h1{
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+.trending_selector{
+    display: flex;
+    align-items: stretch;
+    border: 1px solid rgba(3,37,65);
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.trending_selector .anchor{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.anchor h3{
+    font-size: 1em;
+    padding: 4px 20px;
+    margin-bottom: 0;
+    white-space: nowrap;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    /* background: linear-gradient(to right, #c0fecf 0, #1ed5a9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: -webkit-text-fill-color .5s; */
+    color: rgba(3,37,65);
+}
+
+.selected h3{
+    color:#16ddaf ;
+    border-radius: 20px;
+    background-color: rgba(3,37,65);
+}
+
+.trending_movies{
+   
+    width: 1300px;
+    display: flex;
+    margin-top: 20px;
+    padding-left: 40px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 20px;
+    padding-bottom: 30px;
+    
+}
+
+.trending_movies a{
+    text-decoration: none;
+}
+
+.trending_movie img{
+    width: 130px;
+    height: 225px;
+    border-radius: 8px;
+}
+
+.trending_movie{
+    position: relative;
+}
+.trending_percent{
+    position: absolute;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    margin-top: -20px;
+    margin-left: 10px;
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+}
+
+.trending_movie h3{
+    font-size: 0.9em;
+  
+    padding-top: 26px;
+    font-weight: 700;
+    color: #000;
+    padding-left: 12px;
+}
+
+.trending_movie p{
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, .6);
+    padding-left: 12px;
+}
